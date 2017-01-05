@@ -3,7 +3,7 @@ def SolveLinear(x0, v0, a, t):
     velocityterm = v0 * t
     accelterm = 0.5 * a * t * t
 
-    return postionterm + velocityterm + accelterm
+    return positionterm + velocityterm + accelterm
 
 
 def main():
