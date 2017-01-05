@@ -1,9 +1,9 @@
 def SolveLinear(x0, v0, a, t):
-    firstTerm = x0
-    secondTerm = v0 * t
-    thirdTerm = 0.5 * a * t * t
+    positionterm = x0
+    velocityterm = v0 * t
+    accelterm = 0.5 * a * t * t
 
-    return firstTerm + secondTerm + thirdTerm
+    return postionterm + velocityterm + accelterm
 
 
 def main():
